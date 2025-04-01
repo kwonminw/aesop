@@ -1,0 +1,34 @@
+#header {
+    position: relative;
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+    z-index: 500;
+    background-color: #fffef2;
+}
+
+.header_inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+    z-index: 100;
+    
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header_left .logo {
+    height: 70px;
+}
+
+.header_left .logo img {
+    width: auto;
+    height: 100%;
+}
