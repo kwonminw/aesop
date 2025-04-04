@@ -1,6 +1,6 @@
 import { Header } from './components/header'
-import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import './App.css'
 
 const Layout = () => {
   return(
@@ -17,7 +17,6 @@ function App() {
      <BrowserRouter>
       <Routes>
         <Route path='/' element={<Layout />}>
-
         </Route>
       </Routes>
      </BrowserRouter>

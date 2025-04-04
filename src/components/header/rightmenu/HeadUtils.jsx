@@ -4,9 +4,9 @@ import './HeadUtils.css';
 const HeadUtils = () => {
     return(
         <div id="HeadUtils">
-            <Link>Login</Link>
-            <Link>Join</Link>
-            <Link>Cart</Link>
+            <Link>로그인</Link>
+            <Link>위시리스트</Link>
+            <Link>카트</Link>
         </div>
     )
 }
