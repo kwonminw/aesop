@@ -1,0 +1,92 @@
+/* Main.css */
+.main1{
+    background-color: #fffef2;
+}
+
+.main-text{
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.main-text .main-text1{
+    font-size: 14px;
+    color: #333333;
+    margin: 0 0 20px;
+}
+
+.main-text .main-text2{
+    font-size: 24px;
+    line-height: 1.2;
+    color: #333333;
+    margin: 0 0 5px;
+}
+
+.main-text .main-text3{
+    font-size: 16px;
+    color: #333333;
+    margin: 0 0 30px;
+}
+
+.main-text .main-text4{
+    font-size: 16px;
+    color: #333333;
+    margin: 0 0 30px;
+}
+
+.main-text .main-link{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #333333;
+    font-size: 14px;
+    border: 1px solid #333333;
+    border-width: 1px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.main-text img{
+    width: 20px;
+    height: 20px;
+}
+
+
+@media screen and (min-width:768px){
+    .main1{
+        background-color: #F6F5E8;
+    }
+    .main-text{
+        width: 50%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width:1280px){
+    .main1{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .main-banner{
+        width: 50%;
+    }
+    
+
+    .main-banner img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .main-text{
+        box-sizing: border-box;
+        padding-top: 80px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
