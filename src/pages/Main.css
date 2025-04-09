@@ -94,6 +94,7 @@
     padding-bottom: 50px;
 }
 
+
 .main3-text{
     padding-left: 20px;
     padding-top: 50px;
@@ -204,6 +205,296 @@
     color: #333;
 }
 
+.main5{
+    background-color: #fffef2;
+    padding-top: 100px;
+}
+
+.main5-text{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.main5-text .main5-text2{
+    line-height: 1.2;
+}
+
+.main5-text img{
+    width: 20px;
+    height: 20px;
+}
+
+.main5-text .main5-text1{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.main5-text .main5-text2{
+    font-size: 26px;
+    padding-bottom: 10px;
+    color: #333333;
+    margin-top: 40px;
+}
+
+.main5-text .main5-text3{
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: #333333;
+    margin-top: 40px;
+}
+
+.main5-text .main-link{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    color: #333333;
+    font-size: 14px;
+    border: 1px solid #333333;
+    border-width: 1px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.main5-banner{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.main6{
+    background-color: #fffef2;
+    padding-top: 60px;
+}
+
+.main6-banner{
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.main6-text img{
+    width: 20px;
+    height: 20px;
+}
+
+.main6-text{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.main6-text .main6-text1{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.main6-text .main6-text2{
+    font-size: 26px;
+    padding-bottom: 10px;
+    color: #333333;
+    margin-top: 40px;
+    line-height: 1.2;
+}
+
+.main6-text .main6-text3{
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: #333333;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+.main6-text .main-link{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    color: #333333;
+    font-size: 14px;
+    border: 1px solid #333333;
+    border-width: 1px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.main7{
+    background-color: #fffef2;
+    padding-top: 100px;
+}
+
+.main7-text{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.main7-text img{
+    width: 20px;
+    height: 20px;
+}
+
+.main7-text .main7-text1{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.main7-text .main7-text2{
+    font-size: 26px;
+    padding-bottom: 10px;
+    color: #333333;
+    margin-top: 40px;
+    line-height: 1.2;
+}
+
+.main7-text .main7-text3{
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: #333333;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+.main7-text .main-link{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    color: #333333;
+    font-size: 14px;
+    border: 1px solid #333333;
+    border-width: 1px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.main7-banner{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.main8{
+    background-color: #fffef2;
+    padding-top: 60px;
+}
+
+.main8-banner{
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.main8-text img{
+    width: 20px;
+    height: 20px;
+}
+
+.main8-text{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.main8-text .main8-text1{
+    font-size: 26px;
+    padding-bottom: 10px;
+    color: #333333;
+    margin-top: 10px;
+    line-height: 1.2;
+}
+
+.main8-text .main8-text2{
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: #333333;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+.main8-text .main-link{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    color: #333333;
+    font-size: 14px;
+    border: 1px solid #333333;
+    border-width: 1px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.main9{
+    background-color: #fffef2;
+    padding-top: 10px;
+}
+
+.main9-text{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.main9-text img{
+    width: 20px;
+    height: 20px;
+}
+
+.main9-text .main9-text1{
+    font-size: 26px;
+    padding-bottom: 10px;
+    color: #333333;
+    margin-top: 40px;
+    line-height: 1.2;
+}
+
+.main9-text .main9-text2{
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: #333333;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+.main9-text .main-link{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    color: #333333;
+    font-size: 14px;
+    border: 1px solid #333333;
+    border-width: 1px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.main9-banner{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
 
 @media screen and (min-width:768px){
     .main1{
@@ -245,6 +536,107 @@
     .main4-type ul{
         width: 150%;
     }
+
+    .main5-text{
+        line-height: 1;
+        width: 50%;
+        padding-left: 200px;
+    }
+
+    .main5-text .main5-text2{
+        font-size: 35px;
+        line-height: 1.1;
+    }
+
+    .main5-text .main5-text3{
+        line-height: 1.7;
+    }
+
+    .main5-banner{
+        padding-left: 150px;
+        padding-bottom: 100px;
+    }
+
+    .main6-text{
+        line-height: 1;
+        width: 50%;
+        padding-left: 200px;
+    }
+
+    .main6-text .main6-text2{
+        font-size: 35px;
+        line-height: 1.1;
+    }
+
+    .main6-text .main6-text3{
+        line-height: 1.7;
+    }
+
+    .main6-banner{
+        padding-right: 150px;
+        padding-bottom: 50px;
+    }
+
+    .main7-text{
+        line-height: 1;
+        width: 50%;
+        padding-left: 200px;
+    }
+
+    .main7-text .main7-text2{
+        font-size: 35px;
+        line-height: 1.1;
+    }
+
+    .main7-text .main7-text3{
+        line-height: 1.7;
+    }
+
+    .main7-banner{
+        padding-right: 150px;
+        padding-bottom: 50px;
+    }
+
+    .main8-text{
+        line-height: 1;
+        width: 50%;
+        padding-left: 200px;
+    }
+
+    .main8-text .main8-text1{
+        font-size: 35px;
+        line-height: 1.1;
+    }
+
+    .main8-text .main8-text2{
+        line-height: 1.7;
+    }
+
+    .main8-banner{
+        padding-right: 150px;
+        padding-bottom: 50px;
+    }
+
+    .main9-text{
+        line-height: 1;
+        width: 50%;
+        padding-left: 200px;
+    }
+
+    .main9-text .main9-text1{
+        font-size: 35px;
+        line-height: 1.1;
+    }
+
+    .main9-text .main9-text2{
+        line-height: 1.7;
+    }
+
+    .main9-banner{
+        padding-left: 150px;
+        padding-bottom: 50px;
+    }
+
 }
 
 @media screen and (min-width:1280px){
@@ -279,35 +671,169 @@
         margin: 0 auto;
     }
 
+    .main3{
+        padding-bottom: 100px;
+    }
+
+    .main3-sub{
+        display: flex;
+    }
+
     .main3-banner{
         width: 50%;
-    }
-
-    .main3{
-        display: flex;
-        padding-top: 40px;
-    }
-
-    .main3-banner{
-        width: 80%;
-    }
-    
-    .main3-banner img{
-        height: 60%;
-        width: 100%;
-        object-fit: cover;
+        padding-right: 0;
     }
 
     .main3-text{
+        width: 40%;
         box-sizing: border-box;
-        padding-top: 50px;
-        padding-left: 200px;
-        padding-right: 200px;
-        margin-bottom: 700px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .main3-text .main3-text1{
+        font-size: 35px;
+        line-height: 1.2;
+    }
+
+    .main3-text .main3-text2{
+        line-height: 1.3;
     }
 
     .main4-type ul{
         width: 1400px;
         margin: 0 auto;
     }
+
+    .main5-sub{
+        display: flex;
+    }
+
+    .main5-text{
+        width: 40%;
+        box-sizing: border-box;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .main5-text .main5-text2{
+        font-size: 35px;
+        line-height: 1.2;
+    }
+
+    .main5-text .main5-text3{
+        line-height: 1.3;
+    }
+
+    .main5-banner{
+        width: 60%;
+        padding-right: 0;
+    }
+    
+    .main6-sub{
+        display: flex;
+    }
+
+    .main6-banner{
+        width: 60%;
+        padding-right: 0;
+    }
+
+    .main6-text{
+        width: 40%;
+        box-sizing: border-box;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .main6-text .main6-text2{
+        font-size: 35px;
+        line-height: 1.2;
+    }
+
+    .main6-text .main6-text3{
+        line-height: 1.3;
+    }
+
+    .main7-sub{
+        display: flex;
+    }
+
+    .main7-text{
+        width: 40%;
+        box-sizing: border-box;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .main7-text .main7-text2{
+        font-size: 35px;
+        line-height: 1.2;
+    }
+
+    .main7-text .main7-text3{
+        line-height: 1.3;
+    }
+
+    .main7-banner{
+        width: 60%;
+        padding-right: 0;
+    }
+
+    .main8-sub{
+        display: flex;
+    }
+
+    .main8-banner{
+        width: 60%;
+        padding-right: 0;
+    }
+
+    .main8-text{
+        width: 40%;
+        box-sizing: border-box;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .main8-text .main8-text1{
+        font-size: 35px;
+        line-height: 1.2;
+    }
+
+    .main8-text .main8-text2{
+        line-height: 1.3;
+    }
+
+    .main9{
+        padding-top: 100px;
+    }
+
+    .main9-sub{
+        display: flex;
+    }
+
+    .main9-text{
+        width: 40%;
+        box-sizing: border-box;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .main9-text .main9-text1{
+        font-size: 35px;
+        
+    }
+
+    .main9-text .main9-text2{
+        line-height: 1.5;
+    }
+
+    .main9-banner{
+        width: 60%;
+        padding-right: 0;
+    }
+
+    
+
 }
