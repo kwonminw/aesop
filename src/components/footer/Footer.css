@@ -1,0 +1,44 @@
+/* Footer.css */
+.Footer{
+    background-color: black;
+}
+
+.footer-base{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px
+}
+
+.footer-base .footer-communication{
+    padding-bottom: 30px;
+}
+
+.footer-base .footer-communication h2{
+    color: #fffef2;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.footer-base .footer-communication .line{
+    border-bottom: 1px solid #fffef2;
+}
+
+.footer-base .footer-communication p{
+    padding-top: 10px;
+    color: #fffef2;
+    font-size: 15px;
+}
+
+.information-sub .text1{
+    color: #fffef2;
+    padding-left: 10px;
+}
+
+.information-sub .text2{
+    color: #fffef2;
+    padding-left:10px;
+}
+
+.container-box p{
+    color: #fffef2;
+}

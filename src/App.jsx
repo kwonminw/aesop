@@ -1,4 +1,5 @@
 import { Header } from './components/header'
+import { Footer } from './components/footer'
 import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom'
 import { Main } from './pages'
 import './App.css'
@@ -8,6 +9,7 @@ const Layout = () => {
     <div className='wrapper'>
       <Header />
       <Outlet />
+      <Footer />
     </div>
   )
 }

@@ -168,6 +168,26 @@ const Main = () => {
                     </div>
                 </div>
             </section>
+            <section className='language'>
+                <div className='language-text'>
+                    <p className='music'>‘Music is the language of the spirit.’ <br /></p>
+                    <p className='kahlil'>Kahlil Gibran</p>
+                </div>
+            </section>
+            <section className='approval'>
+                <div className='approval-sub'>
+                    <div className='approval-1'>
+                        <p className='ptext'>비콥 인증</p>
+                        <p className='ptext2'>이솝은 사회적, 환경적 성과, 투명성 및 책임성에 대한 엄격한 기준을 충족합니다.</p>
+                    </div>
+                    <div className='approval-2'>
+                        <p className='ptext'>PETA 승인</p>
+                        <p className='ptext2'>이솝은 국제적으로 인정받는 PETA의 비건 및 크루얼티 프리 목록에 포함되어 있습니다.</p>
+                    </div>
+                </div>
+            </section>
+            
+            
         </div>
     )
 }
