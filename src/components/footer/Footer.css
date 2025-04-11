@@ -6,7 +6,8 @@
 .footer-base{
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 40px
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .footer-base .footer-communication{
@@ -42,3 +43,159 @@
 .container-box p{
     color: #fffef2;
 }
+
+.sub .text3{
+    color: #fffef2;
+}
+
+.footer-item{
+    padding-top: 40px;
+}
+
+.footer-item h2{
+    color: #fffef2;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.footer-item .line{
+    border-bottom: 1px solid #fffef2;
+}
+
+.footer-item ul li{
+    padding-top: 10px;
+    color: #fffef2;
+    font-size: 13px;
+}
+
+.footer-item2 h2{
+    color: #fffef2;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.footer-item2 .line{
+    border-bottom: 1px solid #fffef2;
+}
+
+.footer-item2 ul li{
+    padding-top: 10px;
+    color: #fffef2;
+    font-size: 13px;
+}
+
+.footer-item3 h2{
+    color: #fffef2;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.footer-item3 .line{
+    border-bottom: 1px solid #fffef2;
+}
+
+.footer-item3 ul{
+    padding-top: 10px;
+}
+.footer-item3 ul p{
+    color: #fffef2;
+    padding-bottom: 5px;
+}
+
+.footer-item3 ul li{
+    color: #fffef2;
+}
+
+.footer-item4 h2{
+    color: #fffef2;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.footer-item4 .line{
+    border-bottom: 1px solid #fffef2;
+}
+
+.footer-item4 p{
+    color: #fffef2;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.footer-item5 h2{
+    color: #fffef2;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.footer-item5 .line{
+    border-bottom: 1px solid #fffef2;
+}
+
+.footer-item5 ul{
+    padding-top: 10px;
+}
+
+.footer-item5 ul li{
+    padding-top: 10px;
+    color: #fffef2;
+    font-size: 13px;
+}
+
+.footer-item6 h2{
+    color: #fffef2;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.footer-item6 .line{
+    border-bottom: 1px solid #fffef2;
+}
+
+.footer-item6 ul li{
+    padding-top: 10px;
+    color: #fffef2;
+    font-size: 13px;
+}
+
+.footer-item7 h2{
+    color: #fffef2;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.footer-item7 .line{
+    border-bottom: 1px solid #fffef2;
+}
+
+.footer-item7 p{
+    padding-top: 10px;
+    color: #fffef2;
+    font-size: 13px;
+}
+
+.footer-banner{
+    font-size: 20px;
+}
+
+.footer-banner{
+    padding-top: 30px;
+}
+
+.footer-banner .line{
+    border-bottom: 4px solid #fffef2;
+}
+
+.footer-banner .footer-logo p{
+    padding-top: 15px;
+    
+    font-size: 20px;
+    color: #fffef2;
+}
+
