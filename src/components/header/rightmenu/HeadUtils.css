@@ -3,12 +3,18 @@
     gap: 16px;
 }
 
-#HeadUtils a {
-    color: #777;
+#HeadUtils a{
+    color: #222;
 }
 
 #HeadUtils .btn-search {
     font-size: 16px;
-    color: #777;
+    color: #222;
     cursor: pointer;
+}
+
+@media screen and (min-width:768px){
+    #headutils a{
+        color: #222;
+    }
 }

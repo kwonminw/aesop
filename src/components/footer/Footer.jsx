@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
+    const text1 = '이솝은 이솝의 제품, 서비스 및 홍보 행사 관련 정보를 마케팅 목적으로, 고객님이 동의 해지하시기 전까지, 고객님께 이메일로 보내 드립니다. 마케팅 목적의 개인정보 수집 및 이용에 동의하지 않으셔도 되고,\n 그러한 경우, 마케팅 정보를 수령하실 수 없습니다.'
+    const text2 = '뉴스레터 이메일을 통한 광고성 정보 수신에 동의합니다.'
+
     return(
         <footer className='Footer'>
             <div className='footer-base'>
@@ -13,13 +16,13 @@ const Footer = () => {
                 </section>
                 <section className='footer-information'>
                     <div className='information-sub'>
-                        <div className='sub'>
+                        <div className='sub1'>
                             <input className='checkbox1' 
                                 type='checkbox'
                             />
                             <p className='text1'>본인은 만 14세 이상입니다 (필수)</p>
                         </div>
-                        <div className='sub'>
+                        <div className='sub2'>
                             <input className='checkbox2' 
                                 type='checkbox'
                             />
@@ -28,17 +31,13 @@ const Footer = () => {
                         <div className='scroll-container'>
                             <div className='scroll-container-inner'>
                                 <div className='container-box'>
-                                    <textarea name="box" id="box">
-                                        <p>이솝은 이솝의 제품, 서비스 및 홍보 행사 관련 정보를 마케팅 목적으로, 
-                                            고객님이 동의 해지하시기 전까지, 고객님께 이메일로 보내 드립니다. 
-                                            마케팅 목적의 개인정보 수집 및 이용에 동의하지 않으셔도 되고, 
-                                            그러한 경우, 마케팅 정보를 수령하실 수 없습니다.
-                                        </p>
+                                    <textarea 
+                                        value={text1} style={{width: '100%', height: 'auto'}}>
                                     </textarea>
                                 </div>
                             </div>
                         </div>
-                        <div className='sub'>
+                        <div className='sub3'>
                             <input className='checkbox3' 
                                 type='checkbox'
                             />
@@ -47,18 +46,14 @@ const Footer = () => {
                         <div className='scroll-container'>
                             <div className='scroll-container-inner'>
                                 <div className='container-box'>
-                                    <textarea name="box" id="box">
-                                        <p>이솝은 이솝의 제품, 서비스 및 홍보 행사 관련 정보를 마케팅 목적으로, 
-                                            고객님이 동의 해지하시기 전까지, 고객님께 이메일로 보내 드립니다. 
-                                            마케팅 목적의 개인정보 수집 및 이용에 동의하지 않으셔도 되고, 
-                                            그러한 경우, 마케팅 정보를 수령하실 수 없습니다.
-                                        </p>
+                                    <textarea
+                                        value={text2} style={{width: '100%', height: 'auto'}}>
                                     </textarea>
                                 </div>
                             </div>
                             <div className='adress'>
                                 <input 
-                                    type='placehoder'
+                                    placeholder='이메일 주소'
                                 />
                             </div>
                         </div>

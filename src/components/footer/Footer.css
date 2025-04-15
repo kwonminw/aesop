@@ -30,6 +30,14 @@
     font-size: 15px;
 }
 
+.information-sub .sub1{
+    display: flex;
+}
+
+.information-sub .sub2{
+    display: flex;
+}
+
 .information-sub .text1{
     color: #fffef2;
     padding-left: 10px;
@@ -40,12 +48,21 @@
     padding-left:10px;
 }
 
-.container-box p{
-    color: #fffef2;
+.information-sub .sub3{
+    display: flex;
+    padding-top: 20px;
 }
 
-.sub .text3{
+.sub3 .text3{
     color: #fffef2;
+    padding-left: 10px;
+}
+
+.scroll-container .adress input{
+    margin-top: 10px;
+    width: 500px;
+    height: 37px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .footer-item{
@@ -64,15 +81,19 @@
 
 .footer-item ul li{
     padding-top: 10px;
+}
+
+.footer-item ul li a{
     color: #fffef2;
     font-size: 13px;
+    
 }
 
 .footer-item2 h2{
     color: #fffef2;
     font-size: 13px;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .footer-item2 .line{
@@ -81,6 +102,9 @@
 
 .footer-item2 ul li{
     padding-top: 10px;
+}
+
+.footer-item2 ul li a{
     color: #fffef2;
     font-size: 13px;
 }
@@ -89,7 +113,7 @@
     color: #fffef2;
     font-size: 13px;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .footer-item3 .line{
@@ -99,12 +123,13 @@
 .footer-item3 ul{
     padding-top: 10px;
 }
+
 .footer-item3 ul p{
     color: #fffef2;
     padding-bottom: 5px;
 }
 
-.footer-item3 ul li{
+.footer-item3 ul li a{
     color: #fffef2;
 }
 
@@ -112,7 +137,7 @@
     color: #fffef2;
     font-size: 13px;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .footer-item4 .line{
@@ -129,19 +154,18 @@
     color: #fffef2;
     font-size: 13px;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .footer-item5 .line{
     border-bottom: 1px solid #fffef2;
 }
 
-.footer-item5 ul{
+.footer-item5 ul li{
     padding-top: 10px;
 }
 
-.footer-item5 ul li{
-    padding-top: 10px;
+.footer-item5 ul li a{
     color: #fffef2;
     font-size: 13px;
 }
@@ -150,7 +174,7 @@
     color: #fffef2;
     font-size: 13px;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .footer-item6 .line{
@@ -159,6 +183,9 @@
 
 .footer-item6 ul li{
     padding-top: 10px;
+}
+
+.footer-item6 ul li a{
     color: #fffef2;
     font-size: 13px;
 }
@@ -167,7 +194,7 @@
     color: #fffef2;
     font-size: 13px;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .footer-item7 .line{
@@ -189,13 +216,15 @@
 }
 
 .footer-banner .line{
-    border-bottom: 4px solid #fffef2;
+    border-bottom: 3px solid #fffef2;
 }
 
 .footer-banner .footer-logo p{
     padding-top: 15px;
-    
     font-size: 20px;
     color: #fffef2;
 }
 
+@media screen and (min-width: 768px){
+    
+}
