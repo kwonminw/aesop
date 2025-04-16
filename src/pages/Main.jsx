@@ -10,7 +10,7 @@ const data1 = {
 }
 
 const data2 = [
-     {
+        {
             src: '/assets/images/main5.PNG',
             title: '제품과 가이드',
             text: '엘레오스 너리싱 바디 클렌저로 한층 풍성해진 세정',
@@ -128,12 +128,13 @@ const Main = () => {
                 </div>
             </section>
             {data2.map((data, i) => {
-                 if(num % 2 === 0){
-                    return answer = 'true';
+                let answer = true
+                if(i % 2 === 0){
+                    answer = true;
                 } else {
-                    return answer = 'false';
+                    answer = false;
                 }
-                return <Maindata key={i} src={data2[i].src} title={data2[i].title} text={data2[i].text} text2={data2[i].text2} link={data2[i].link} />
+                return<Maindata key={i} src={data2[i].src} title={data2[i].title} text={data2[i].text} text2={data2[i].text2} link={data2[i].link} answer={answer} />
             })}
             <section className='language'>
                 <div className='language-text'>

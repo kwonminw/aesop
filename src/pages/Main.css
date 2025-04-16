@@ -552,9 +552,6 @@
 }
 
 
-
-
-
 @media screen and (min-width:768px){
     .main1{
         background-color: #F6F5E8;
@@ -579,6 +576,14 @@
         margin: auto;
     }
 
+    .main3-sub{
+       display: flex;
+    }
+
+    .main3-sub.right{
+        flex-direction: row-reverse;
+    }
+
     .main4{
         padding-top: 10px;
         padding-bottom: 80px;
@@ -595,7 +600,7 @@
     .main4-type ul{
         width: 150%;
     }
-
+    
     .main5-text{
         line-height: 1;
         width: 50%;
@@ -729,8 +734,6 @@
     .approval-2 .ptext{
         padding-bottom: 8px;
     }
-
-
 }
 
 @media screen and (min-width:1280px){
@@ -771,6 +774,10 @@
 
     .main3-sub{
         display: flex;
+    }
+
+    .main3-sub .right{
+        flex-direction: row-reverse;
     }
 
     .main3-banner{
