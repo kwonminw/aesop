@@ -4,8 +4,8 @@ import './Main.css';
 
 const data1 = {
         src: '/assets/images/aesop_clean.PNG',
-        title: '모두를 위한 클렌징',
-        text: '향기롭고 거품이 적은 바디 클렌저는 피부 노폐물을 부드럽게 제거하고 상쾌하게 가꿔줍니다. 매주 1~2회 각질제거 스크럽을 사용해 피부 각질을 씻어내고 매끄럽고 윤기 있는 피부로 관리하세요.',
+        text: '모두를 위한 클렌징',
+        text2: '향기롭고 거품이 적은 바디 클렌저는 피부 노폐물을 부드럽게 제거하고 상쾌하게 가꿔줍니다. 매주 1~2회 각질제거 스크럽을 사용해 피부 각질을 씻어내고 매끄럽고 윤기 있는 피부로 관리하세요.',
         link: '바디 클렌저 & 스크럽보기 둘러보기'
 }
 
@@ -33,14 +33,14 @@ const data2 = [
         },
         {
             src: '/assets/images/main8.PNG',
-            title: '가까운 프래그런스 아르무아 찾기',
-            text: '일부 엄선된 매장에서만 만나볼 수 있는 몰입형 아로마 캐비닛은 전형적이지 않은 이솝 오 드 퍼퓸을 소개하기 위해 특별히 고안되었습니다.',
+            text: '가까운 프래그런스 아르무아 찾기',
+            text2: '일부 엄선된 매장에서만 만나볼 수 있는 몰입형 아로마 캐비닛은 전형적이지 않은 이솝 오 드 퍼퓸을 소개하기 위해 특별히 고안되었습니다.',
             link: '스토어 찾기'
         },
         {
             src: '/assets/images/main9.PNG',
-            title: '스토어 로케이터',
-            text: '매장에서는 이솝 컨설턴트가 고객 여러분을 따뜻하게 맞이하고 기프트 구매를 위한 맞춤형 컨설팅을 제공해드립니다.',
+            text: '스토어 로케이터',
+            text2: '매장에서는 이솝 컨설턴트가 고객 여러분을 따뜻하게 맞이하고 기프트 구매를 위한 맞춤형 컨설팅을 제공해드립니다.',
             link: '가까운 스토어 찾기'
         }
 ]
@@ -68,7 +68,8 @@ const Main = () => {
                             <Link>
                                 <p className='typeimg'><img src='/assets/images/body1.jpg' alt='바디 클렌저' /></p>
                                 <h2 className='typename'>엘레오스 너리싱 바디 클렌저</h2>
-                                <p className='types'>깨끗하게 세정하고, 부드럽고 탄력 있는 피부로 가꿔줍니다</p>
+                                <p className='types'>깨끗하게
+                                     세정하고, 부드럽고 탄력 있는 피부로 가꿔줍니다</p>
                             </Link>
                         </li>
                         <li className='type'>
@@ -89,7 +90,7 @@ const Main = () => {
                 </div>
             </section>
             <Maindata 
-                src={data1.src} title={data1.title} text={data1.text} link={data1.link}
+                src={data1.src} text={data1.text} text2={data1.text2} link={data1.link}
             />
             <section className='main4'>
                 <div className='main4-text'>

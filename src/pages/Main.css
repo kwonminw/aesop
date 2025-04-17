@@ -94,7 +94,6 @@
     padding-bottom: 50px;
 }
 
-
 .main3-text{
     padding-left: 20px;
     padding-top: 50px;
@@ -108,16 +107,23 @@
 }
 
 .main3-text .main3-text1{
-    font-size: 24px;
+    font-size: 15px;
+    font-weight: 700;
     color: #333333;
     margin: 0 0 20px;
 }
 
 .main3-text .main3-text2{
-    font-size: 18px;
+    font-size: 27px;
     line-height: 1.2;
     color: #333333;
-    margin-top: 40px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.main3-text .main3-text3{
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .main3-text .main-link{
@@ -551,7 +557,6 @@
     font-size: 15px;
 }
 
-
 @media screen and (min-width:768px){
     .main1{
         background-color: #F6F5E8;
@@ -578,10 +583,30 @@
 
     .main3-sub{
        display: flex;
+       padding-top: 120px;
+    }
+
+    .main3-banner{
+        width: 60%;
     }
 
     .main3-sub.right{
         flex-direction: row-reverse;
+    }
+
+    .main3-sub .main3-text1{
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .main3-sub .main3-text2{
+        font-size: 35px;
+        padding-bottom: 40px;
+    }
+
+    .main3-sub .main3-text3{
+        font-size: 18px;
+        line-height: 1.5;
     }
 
     .main4{
@@ -747,10 +772,6 @@
         flex-direction: row-reverse;
     }
 
-    .main-banner{
-        width: 50%;
-    }
-    
     .main-banner img{
         height: 100%;
         object-fit: cover;
@@ -776,12 +797,12 @@
         display: flex;
     }
 
-    .main3-sub .right{
+    .main3-sub.right{
         flex-direction: row-reverse;
     }
 
     .main3-banner{
-        width: 50%;
+        width: 60%;
         padding-right: 0;
     }
 
@@ -793,7 +814,7 @@
     }
 
     .main3-text .main3-text1{
-        font-size: 35px;
+        font-size: 18px;
         line-height: 1.2;
     }
 
