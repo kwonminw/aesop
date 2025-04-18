@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import Gnb from "./Gnb";
 import { Tabletmenu, HeadUtils, Mobileicon } from "./";
+import Gnb from "./Gnb";
 import './Header.css';
+
 
 const Header = () => {
     return(
