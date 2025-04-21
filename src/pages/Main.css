@@ -94,6 +94,10 @@
     padding-bottom: 50px;
 }
 
+.main3-banner{
+    padding-top: 80px;
+}
+
 .main3-text{
     padding-left: 20px;
     padding-top: 50px;
@@ -577,17 +581,16 @@
     }
 
     .main3-text{
-        width: 50%;
+        width: 60%;
         margin: auto;
     }
 
     .main3-sub{
-       display: flex;
        padding-top: 120px;
     }
 
     .main3-banner{
-        width: 60%;
+        width: 85%;
     }
 
     .main3-sub.right{

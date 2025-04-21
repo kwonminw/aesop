@@ -9,7 +9,7 @@ const Side = ({ isSide, setIsSide }) => {
     return (
         <div className={`Side ${isSide ? 'view' : ''}`}>
             <div className='side-inner'>
-                <p className='side-logo'><img src='/assets/images/img.png' alt='이솝로고' /></p>
+                <Link to='' className='side-logo'><img src='/assets/images/img.png' alt='이솝로고' /></Link>
                 <nav className="side-gnb">
                     <ul>
                         <li><Link to=''>신제품 & 추천 제품</Link></li>
@@ -24,13 +24,18 @@ const Side = ({ isSide, setIsSide }) => {
                 </nav>
                 <div className="side-utills">
                     <ul>
-                        <li><Link>읽기</Link></li>
-                        <li><Link>스토어</Link></li>
-                        <li><Link>로그인</Link></li>
-                        <li><Link>문의하기</Link></li>
+                        <li><Link to=''>읽기</Link></li>
+                        <li><Link to=''>스토어</Link></li>
+                        <li><Link to=''>로그인</Link></li>
+                        <li><Link to=''>문의하기</Link></li>
                     </ul>
                 </div>
-               
+
+                <div className='side-footer'>
+                    <Link to='' className='side-img'><img src='/assets/images/side.png' alt='사이드이미지' /></Link>
+                    <p className='side-footer-title'>Product</p>
+                    <p className='side-footer-text'>나만의 무대, 샤워의 시간: 엘레오스 너리싱 바디 클렌저로 한층 풍성해진 세정</p>
+                </div>
                 <p className='btn-close-side'>
                     <button onClick={handleSideClose}>
                         <span className='bar1'></span>

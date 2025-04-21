@@ -42,6 +42,7 @@
     box-sizing: border-box;
     width: 200%;
     padding-left: 24px;
+    background-color: #fffef2;
 }
 
 .gnb .has3 .depth2 {

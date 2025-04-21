@@ -3,6 +3,7 @@ import './Gnb.css';
 
 const Gnb = () => {
     return (
+        <div className="gnb-wrapper">
         <nav className="gnb">
             <ul>
                 <li>
@@ -119,6 +120,7 @@ const Gnb = () => {
                 </li>
             </ul>
         </nav>
+        </div>
     )
 }
 
