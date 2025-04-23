@@ -20,6 +20,44 @@
     width: 90px;
 }
 
+.aesop_search_modal {
+    position: fixed;
+    inset: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .aesop_modal_content {
+    background: #fff;
+    padding: 2.5rem 2rem;
+    border: 1px solid #111;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .aesop_input {
+    width: 100%;
+    padding: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border: 1px solid #111;
+    color: #111;
+  }
+  
+  .aesop_close {
+    background: none;
+    border: none;
+    color: #111;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
 .mobileicon ul{
     display: flex;
     gap: 24px;
@@ -72,7 +110,12 @@
         width: 18px;
         margin-left: 15px;
         margin-top: 2px;
-        
+    }
+
+    .header_left .search_button{
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
     }
     
     .header_right #headutils{

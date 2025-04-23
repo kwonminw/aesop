@@ -1,3 +1,8 @@
 .mobileicon ul li a{
     color: #777;
 }
+
+.mobileicon .mobile_search{
+    border: none;
+    background-color: transparent;
+}
